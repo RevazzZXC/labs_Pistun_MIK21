@@ -1,0 +1,153 @@
+{
+  "meta": {
+    "dataset_version": "1.0-scene-refs",
+    "k": 3,
+    "seed": 42,
+    "deterministic": true,
+    "train_count": 12,
+    "val_count": 12,
+    "query_count": 12,
+    "python_version": "3.15.2",
+    "os": "Windows-11-10.0.26300-SP0",
+    "config_hash": "c3d798971913"
+  },
+  "summary": {
+    "literal": {
+      "count": 6,
+      "mean_ndcg@3": 0.9073,
+      "mean_recall@3": 0.6667
+    },
+    "paraphrase": {
+      "count": 6,
+      "mean_ndcg@3": 0.0927,
+      "mean_recall@3": 0.0555
+    },
+    "all": {
+      "count": 12,
+      "mean_ndcg@3": 0.5,
+      "mean_recall@3": 0.3611
+    }
+  },
+  "queries": [
+    {
+      "query_id": "Q01",
+      "segment": "literal",
+      "query": "неон дождь ночной город",
+      "ndcg@3": 0.9073,
+      "recall@3": 0.6667,
+      "top_k_ids": "V002 V001",
+      "top_k_scores": "0.888212 0.744805",
+      "top_k_grades": "2 2"
+    },
+    {
+      "query_id": "Q02",
+      "segment": "paraphrase",
+      "query": "киберпанк ливень мегаполис",
+      "ndcg@3": 0.0,
+      "recall@3": 0.0,
+      "top_k_ids": "",
+      "top_k_scores": "",
+      "top_k_grades": ""
+    },
+    {
+      "query_id": "Q03",
+      "segment": "literal",
+      "query": "туман сосновый лес рассвет",
+      "ndcg@3": 0.9073,
+      "recall@3": 0.6667,
+      "top_k_ids": "V003 V004",
+      "top_k_scores": "1.0 0.801818",
+      "top_k_grades": "2 2"
+    },
+    {
+      "query_id": "Q04",
+      "segment": "paraphrase",
+      "query": "мгла хвойный бор заря",
+      "ndcg@3": 0.0,
+      "recall@3": 0.0,
+      "top_k_ids": "",
+      "top_k_scores": "",
+      "top_k_grades": ""
+    },
+    {
+      "query_id": "Q05",
+      "segment": "literal",
+      "query": "бетон лофт естественный свет",
+      "ndcg@3": 0.9073,
+      "recall@3": 0.6667,
+      "top_k_ids": "V005 V006 V010",
+      "top_k_scores": "1.0 0.358728 0.127733",
+      "top_k_grades": "2 2 0"
+    },
+    {
+      "query_id": "Q06",
+      "segment": "paraphrase",
+      "query": "железобетон индустриальный лофт дневной свет",
+      "ndcg@3": 0.5563,
+      "recall@3": 0.3333,
+      "top_k_ids": "V005 V010 V004",
+      "top_k_scores": "0.66549 0.191938 0.183685",
+      "top_k_grades": "2 0 0"
+    },
+    {
+      "query_id": "Q07",
+      "segment": "literal",
+      "query": "пустыня закат дюны",
+      "ndcg@3": 0.9073,
+      "recall@3": 0.6667,
+      "top_k_ids": "V007 V008",
+      "top_k_scores": "0.81526 0.760159",
+      "top_k_grades": "2 2"
+    },
+    {
+      "query_id": "Q08",
+      "segment": "paraphrase",
+      "query": "барханы пустошь сумерки",
+      "ndcg@3": 0.0,
+      "recall@3": 0.0,
+      "top_k_ids": "",
+      "top_k_scores": "",
+      "top_k_grades": ""
+    },
+    {
+      "query_id": "Q09",
+      "segment": "literal",
+      "query": "подводный мир кораллы свет",
+      "ndcg@3": 0.9073,
+      "recall@3": 0.6667,
+      "top_k_ids": "V010 V009 V004",
+      "top_k_scores": "0.649904 0.625882 0.127733",
+      "top_k_grades": "2 2 0"
+    },
+    {
+      "query_id": "Q10",
+      "segment": "paraphrase",
+      "query": "океанское дно рифы подводная подсветка",
+      "ndcg@3": 0.0,
+      "recall@3": 0.0,
+      "top_k_ids": "",
+      "top_k_scores": "",
+      "top_k_grades": ""
+    },
+    {
+      "query_id": "Q11",
+      "segment": "literal",
+      "query": "винил студия тёплый свет",
+      "ndcg@3": 0.9073,
+      "recall@3": 0.6667,
+      "top_k_ids": "V011 V012 V007",
+      "top_k_scores": "0.870179 0.591168 0.385381",
+      "top_k_grades": "2 2 0"
+    },
+    {
+      "query_id": "Q12",
+      "segment": "paraphrase",
+      "query": "грампластинки звукозапись ламповый свет",
+      "ndcg@3": 0.0,
+      "recall@3": 0.0,
+      "top_k_ids": "V010 V004 V005",
+      "top_k_scores": "0.365338 0.349629 0.349629",
+      "top_k_grades": "0 0 0"
+    }
+  ]
+}
